@@ -9,18 +9,27 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #1A1500;
+	background: #e6ffe6;
 	font-family: 'Montserrat', sans-serif;
 }
-input {
-	padding: 15px;
+.container {
+	border-bottom: 2px solid #292942;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+.container:focus-within {
+	border-bottom: 2px solid #00c711;
+}
+.password {
+	padding: 8px;
 	border: 0;
-	width: 300px;
+	width: 200px;
+}
+.password:focus {
+	outline: 0;
 }
 span {
 	float: right;
-	border-left: 1px solid rgba(0, 0, 0, 0.3);
-	background-color: white;
+	background: #fff;
 	cursor: pointer;
-	padding: 13.5px;
+	padding: 6.5px;
 }
